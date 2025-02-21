@@ -210,14 +210,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: 'www.google.com'
+    url : 'https://github.com/Filip1010'
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    url : 'https://www.linkedin.com/in/filip-kuzmanoski-ba6594254/'
   },
 ];
