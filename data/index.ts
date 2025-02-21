@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Doctor Booking Appointment",
     des: "Patients can effortlessly choose their preferred doctor, select an available time slot, and provide necessary details—all through a simple, intuitive interface",
-    img: "/p2.svg",
+    img: "/p2replaced.svg.avif",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "",
   },
@@ -110,30 +110,35 @@ export const testimonials = [
       "Collaborating with Filip was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Filip's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Filip is the ideal partner.",
     name: "Emily",
     title: "5 stars",
+    img: "/profile.svg"
   },
   {
     quote:
       "This website made booking my doctor's appointments so easy! I love how quick and straightforward the process is. Highly recommend it!",
     name: "Bhatt",
     title: "5 stars",
+    img: "/profile.svg"
   },
   {
     quote:
       "Working with Filip is a game-changer. He’s reliable, highly skilled, and always focused on delivering results. His commitment to ensuring client satisfaction makes him an exceptional partner for any project.",
     name: "Sophia",
     title: "5 stars",
+    img: ""
   },
   {
     quote:
       "Filip is a true professional. He delivered exceptional results for our web development project and provided invaluable insights throughout the process. It’s been a pleasure working with him!",
     name: "Michael",
     title: "5 stars",
+    img: ""
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Working with Filip Kuzmanoski is seamless—his expertise, dedication, and problem-solving skills make collaboration effortless and highly productive.",
     name: "James",
     title: "5 stars",
+    img : ""
   },
 ];
 
@@ -205,6 +210,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: 'www.google.com'
   },
   {
     id: 2,
