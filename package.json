@@ -11,10 +11,10 @@
     "postinstall": "npm run prisma:generate",
     "prisma:generate": "prisma generate",
     "postbuild": "prisma generate"
-    
   },
   "dependencies": {
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
+    "@prisma/client": "^5.0.0",
     "@react-three/drei": "^9.105.4",
     "@react-three/fiber": "^8.16.2",
     "@sentry/nextjs": "^7.105.0",
@@ -36,9 +36,7 @@
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.163.0",
     "three-globe": "^2.31.0",
-    "vercel": "^41.1.4" ,
-    "prisma": "^5.0.0" ,
-    "@prisma/client": "^5.0.0"
+    "vercel": "^32.3.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.26.9",
@@ -51,6 +49,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.4",
     "postcss": "^8",
+    "prisma": "^6.4.1",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }
