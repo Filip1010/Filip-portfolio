@@ -110,35 +110,35 @@ export const testimonials = [
       "Collaborating with Filip was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Filip's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Filip is the ideal partner.",
     name: "Emily",
     title: "5 stars",
-    img: "/profile.svg"
+    img: "/emily.jpg"
   },
   {
     quote:
-      "This website made booking my doctor's appointments so easy! I love how quick and straightforward the process is. Highly recommend it!",
+      "Highly recommend his expertise for anyone looking to elevate their digital presence!",
     name: "Bhatt",
     title: "5 stars",
-    img: "/profile.svg"
+    img: "/bhatt.jpg"
   },
   {
     quote:
       "Working with Filip is a game-changer. He’s reliable, highly skilled, and always focused on delivering results. His commitment to ensuring client satisfaction makes him an exceptional partner for any project.",
     name: "Sophia",
     title: "5 stars",
-    img: ""
+    img: "/sophia.jpg"
   },
   {
     quote:
       "Filip is a true professional. He delivered exceptional results for our web development project and provided invaluable insights throughout the process. It’s been a pleasure working with him!",
     name: "Michael",
     title: "5 stars",
-    img: ""
+    img: "/michael.jpg"
   },
   {
     quote:
       "Working with Filip Kuzmanoski is seamless—his expertise, dedication, and problem-solving skills make collaboration effortless and highly productive.",
     name: "James",
     title: "5 stars",
-    img : ""
+    img : "/james.jpg"
   },
 ];
 
