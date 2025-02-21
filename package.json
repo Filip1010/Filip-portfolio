@@ -8,9 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "vercel --prod",
-    "postinstall": "npm run prisma:generate",
+    "postinstall": "npm run prisma:generate && npm install @sentry/nextjs",
     "prisma:generate": "prisma generate",
     "postbuild": "prisma generate"
+     
     
     
   },
