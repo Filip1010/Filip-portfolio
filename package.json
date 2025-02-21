@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
     "deploy": "vercel --prod",
     "postinstall": "npm run prisma:generate",
     "prisma:generate": "prisma generate",
     "postbuild": "prisma generate"
+    
+    
   },
   "dependencies": {
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
