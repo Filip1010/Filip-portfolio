@@ -8,6 +8,11 @@ export default withSentryConfig(nextConfig, {
     eslint: {
         ignoreDuringBuilds: true,
     },
+
+    sentry: {
+    disableServerWebpackPlugin: true,
+    disableClientWebpackPlugin: true,
+  },
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
