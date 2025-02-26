@@ -12,6 +12,7 @@
     "prisma:generate": "prisma generate",
     "postbuild": "prisma generate"
   },
+  "type": "module",
   "dependencies": {
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "@prisma/client": "^5.0.0",
