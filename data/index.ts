@@ -72,27 +72,28 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "",
+    title: "Macedonian Stock Exchange Data Scraper",
+    des: "A powerful web scraper that collects and analyzes historical data from the Macedonian Stock Exchange, enabling real-time insights and comprehensive financial analysis.",
+    img: "stock-exchange.jpg",
+    iconLists: ["/python.png", "/selenium.png", "/pandas.png", "/docker.png"],
+    link: "https://github.com/Filip1010/Macedonian-Stock-Exchange/tree/master",
   },
+
   {
     id: 2,
     title: "Doctor Booking Appointment",
     des: "Patients can effortlessly choose their preferred doctor, select an available time slot, and provide necessary details—all through a simple, intuitive interface",
     img: "/p2replaced.svg.avif",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "",
+    link: "https://github.com/Filip1010/Doctor-Booking-Appointment-",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Online E-Commerce App",
+    des: "A fully functional online e-commerce platform built with the latest technologies, including AI features for personalized shopping experiences, a robust payment system, and real-time product tracking.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "",
+    link: "https://example.com",
   },
   {
     id: 4,
@@ -100,7 +101,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "",
+    link: "https://example.com",
   },
 ];
 
@@ -110,35 +111,35 @@ export const testimonials = [
       "Collaborating with Filip was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Filip's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Filip is the ideal partner.",
     name: "Emily",
     title: "5 stars",
-    img: "/emily.jpg"
+    img: "/emily.jpg",
   },
   {
     quote:
       "Highly recommend his expertise for anyone looking to elevate their digital presence!",
     name: "Bhatt",
     title: "5 stars",
-    img: "/bhatt.jpg"
+    img: "/bhatt.jpg",
   },
   {
     quote:
       "Working with Filip is a game-changer. He’s reliable, highly skilled, and always focused on delivering results. His commitment to ensuring client satisfaction makes him an exceptional partner for any project.",
     name: "Sophia",
     title: "5 stars",
-    img: "/sophia.jpg"
+    img: "/sophia.jpg",
   },
   {
     quote:
       "Filip is a true professional. He delivered exceptional results for our web development project and provided invaluable insights throughout the process. It’s been a pleasure working with him!",
     name: "Michael",
     title: "5 stars",
-    img: "/michael.jpg"
+    img: "/michael.jpg",
   },
   {
     quote:
       "Working with Filip Kuzmanoski is seamless—his expertise, dedication, and problem-solving skills make collaboration effortless and highly productive.",
     name: "James",
     title: "5 stars",
-    img : "/james.jpg"
+    img: "/james.jpg",
   },
 ];
 
@@ -210,11 +211,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url : 'https://github.com/Filip1010'
+    url: "https://github.com/Filip1010",
   },
   {
     id: 2,
     img: "/link.svg",
-    url : 'https://www.linkedin.com/in/filip-kuzmanoski-ba6594254/'
+    url: "https://www.linkedin.com/in/filip-kuzmanoski-ba6594254/",
   },
 ];
