@@ -6,7 +6,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   // Open link in a new tab
-  const handleCardClick = (url) => {
+  const handleCardClick = (url : string) => {
     if (url) window.open(url, "_blank");
   };
 
@@ -22,7 +22,7 @@ const RecentProjects = () => {
           <div
             key={item.id}
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] cursor-pointer"
-            onClick={() => handleCardClick(item.link)} // Open link when the card is clicked
+            onClick={() => handleCardClick(item.link)} 
           >
             <PinContainer title="Powered by Filip ">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">

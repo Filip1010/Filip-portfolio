@@ -10,8 +10,8 @@ export default withSentryConfig(nextConfig, {
     },
 
     sentry: {
-    disableServerWebpackPlugin: true,
-    disableClientWebpackPlugin: true,
+    disableServerWebpackPlugin: false,
+    disableClientWebpackPlugin: false,
   },
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
