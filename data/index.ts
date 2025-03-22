@@ -72,6 +72,15 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Doctor Booking Appointment",
+    des: "Patients can effortlessly choose their preferred doctor, select an available time slot, and provide necessary details—all through a simple, intuitive interface",
+    img: "/p2replaced.svg.avif",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://doctor-booking-appointment-ed9xhglkx-filip1010s-projects.vercel.app/",
+  },
+
+  {
+    id: 2,
     title: "Macedonian Stock Exchange Data Scraper",
     des: "A powerful web scraper that collects and analyzes historical data from the Macedonian Stock Exchange, enabling real-time insights and comprehensive financial analysis.",
     img: "stock-exchange.jpg",
@@ -79,14 +88,6 @@ export const projects = [
     link: "https://github.com/Filip1010/Macedonian-Stock-Exchange/tree/master",
   },
 
-  {
-    id: 2,
-    title: "Doctor Booking Appointment",
-    des: "Patients can effortlessly choose their preferred doctor, select an available time slot, and provide necessary details—all through a simple, intuitive interface",
-    img: "/p2replaced.svg.avif",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/Filip1010/Doctor-Booking-Appointment-",
-  },
   {
     id: 3,
     title: "Online E-Commerce App",
