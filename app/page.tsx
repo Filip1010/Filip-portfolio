@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { navItems } from "@/data";
 import { Analytics } from "@vercel/analytics/react";
 import Hero from "@/components/Hero";
@@ -12,6 +13,10 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
+  useEffect(() => {
+    // Any client-side only code can go here
+  }, []);
+
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
