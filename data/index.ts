@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a custom E-commerce app.",
+    title: "Currently building an online dialer for cold calls.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -94,7 +94,7 @@ export const projects = [
     des: "A fully functional online e-commerce platform built with the latest technologies, including AI features for personalized shopping experiences, a robust payment system, and real-time product tracking.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://example.com",
+    link: "https://www.biliaoutlet.se/",
   },
   {
     id: 4,
@@ -102,7 +102,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://example.com",
+    link: "https://github.com/Filip1010",
   },
 ];
 
