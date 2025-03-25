@@ -60,13 +60,22 @@ const Hero = () => {
             Hi! I&apos;m Filip, a Software Developer based in Macedonia.
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex space-x-4">
+            <a href="#about">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="/CVpht.jpg" target="_blank" rel="noopener noreferrer">
+              <MagicButton
+                title="CV"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

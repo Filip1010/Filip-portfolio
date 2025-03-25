@@ -83,7 +83,7 @@ export const projects = [
     title: "Your Ultimate Car Buying Companion",
     des: "Enjoy a seamless, pleasant, and efficient car buying process with our top-notch service and innovative solutions.",
     img: "/shopCar.jpeg",
-    iconLists: ["/wordpress.png"],
+    iconLists: ["/wordpress.png", "/ts.svg", "/c.svg"],
     link: "https://steinegger-automobile.ch/?fbclid=IwY2xjawJP2GxleHRuA2FlbQIxMAABHTNUV3lMcYK-qlNIN0ic2GuCWxE3WiszzsKqeXr8k8r7IS16amBAeDSAsQ_aem_NaxDKCB0-jO-f01oVUydeQ",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "Rent a Car Website",
     des: "'Still Working' A user-friendly car rental website that allows customers to easily browse available vehicles, select their preferred model, and book a rental with just a few clicks.",
     img: "/car.avif",
-    iconLists: ["/wordpress.png"],
+    iconLists: ["/wordpress.png", "/ts.svg", "/c.svg"],
     link: "https://carrentalskopje.com/?fbclid=IwY2xjawJP1wdleHRuA2FlbQIxMAABHWfHn_QH3STp1sPXzmnqww-OwaDs6-ujEp3SnGJ7B9dDL1Eb5Yg5d7oGyA_aem_WCvWQ64HUeVoi5v1DduV1g",
   },
   {
