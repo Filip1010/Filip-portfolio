@@ -73,36 +73,34 @@ export const projects = [
   {
     id: 1,
     title: "Doctor Booking Appointment",
-    des: "Patients can effortlessly choose their preferred doctor, select an available time slot, and provide necessary details—all through a simple, intuitive interface",
+    des: "'Still Working' Patients can effortlessly choose their preferred doctor, select an available time slot, and provide necessary details—all through a simple, intuitive interface",
     img: "/p2replaced.svg.avif",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://doctor-booking-appointment-ed9xhglkx-filip1010s-projects.vercel.app/",
   },
-
   {
     id: 2,
+    title: "Your Ultimate Car Buying Companion",
+    des: "Enjoy a seamless, pleasant, and efficient car buying process with our top-notch service and innovative solutions.",
+    img: "/shopCar.jpeg",
+    iconLists: ["/wordpress.png"],
+    link: "https://steinegger-automobile.ch/?fbclid=IwY2xjawJP2GxleHRuA2FlbQIxMAABHTNUV3lMcYK-qlNIN0ic2GuCWxE3WiszzsKqeXr8k8r7IS16amBAeDSAsQ_aem_NaxDKCB0-jO-f01oVUydeQ",
+  },
+  {
+    id: 3,
+    title: "Rent a Car Website",
+    des: "'Still Working' A user-friendly car rental website that allows customers to easily browse available vehicles, select their preferred model, and book a rental with just a few clicks.",
+    img: "/car.avif",
+    iconLists: ["/wordpress.png"],
+    link: "https://carrentalskopje.com/?fbclid=IwY2xjawJP1wdleHRuA2FlbQIxMAABHWfHn_QH3STp1sPXzmnqww-OwaDs6-ujEp3SnGJ7B9dDL1Eb5Yg5d7oGyA_aem_WCvWQ64HUeVoi5v1DduV1g",
+  },
+  {
+    id: 4,
     title: "Macedonian Stock Exchange Data Scraper",
     des: "A powerful web scraper that collects and analyzes historical data from the Macedonian Stock Exchange, enabling real-time insights and comprehensive financial analysis.",
     img: "stock-exchange.jpg",
     iconLists: ["/python.png", "/selenium.png", "/pandas.png", "/docker.png"],
     link: "https://github.com/Filip1010/Macedonian-Stock-Exchange/tree/master",
-  },
-
-  {
-    id: 3,
-    title: "Online E-Commerce App",
-    des: "A fully functional online e-commerce platform built with the latest technologies, including AI features for personalized shopping experiences, a robust payment system, and real-time product tracking.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://www.biliaoutlet.se/",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/Filip1010",
   },
 ];
 
@@ -181,28 +179,28 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in developing a web-based platform using React.js, enhancing interactivity and user engagement.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Website App Developer – JSM Tech",
+    desc: "Designed and developed a high-performance website for a tech company, improving user experience and optimizing functionality.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Web App Developer",
+    desc: "Led the development of a custom web application for a client, managing the process from concept to deployment.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Designed, developed, and maintained user-facing features using modern frontend technologies, ensuring responsive and intuitive interfaces.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
