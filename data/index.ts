@@ -80,9 +80,9 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Your Ultimate Car Buying Companion",
-    des: "Enjoy a seamless, pleasant, and efficient car buying process with our top-notch service and innovative solutions.",
-    img: "/shopCar.jpeg",
+    title: "Marcello Auto",
+    des: "Marcello Auto, located in Seewen, Switzerland, specializes in the purchase and sale of vehicles across all brands, including luxury cars, family vehicles, and sports cars. They offer services such as trade-ins, cash purchases, and exports, ensuring customer satisfaction through professional service and partnerships with leading Swiss providers for credit, leasing, and vehicle warranties.",
+    img: "marchello.jpg",
     iconLists: [
       "/ts.svg",
       "/c.svg",
@@ -90,7 +90,7 @@ export const projects = [
       "/wordpress.png",
       "/sales.jpg",
     ],
-    link: "https://steinegger-automobile.ch/?fbclid=IwY2xjawJP2GxleHRuA2FlbQIxMAABHTNUV3lMcYK-qlNIN0ic2GuCWxE3WiszzsKqeXr8k8r7IS16amBAeDSAsQ_aem_NaxDKCB0-jO-f01oVUydeQ",
+    link: "https://marcello-auto.ch/?fbclid=IwY2xjawJQ4hJleHRuA2FlbQIxMAABHaYant9Yhjkovr7F0LIZy2YpLho0IfeN2UfpYoxTA_TsxNnQLALqnhDpuQ_aem_GDEjk8NuO-hDxhVR4ufWiw",
   },
   {
     id: 3,
@@ -114,11 +114,12 @@ export const projects = [
     ],
     link: "https://textilambiente.ch/?fbclid=IwY2xjawJQ4ClleHRuA2FlbQIxMAABHU_kf29kCFCnJh18Ez3G2f08gktxIgtv5aR1sud2967LbcXNIo-3sm6dXw_aem_nGYkLh9Zb--TirXjj4fLXQ",
   },
+
   {
     id: 5,
-    title: "Marcello Auto",
-    des: "Marcello Auto, located in Seewen, Switzerland, specializes in the purchase and sale of vehicles across all brands, including luxury cars, family vehicles, and sports cars. They offer services such as trade-ins, cash purchases, and exports, ensuring customer satisfaction through professional service and partnerships with leading Swiss providers for credit, leasing, and vehicle warranties.",
-    img: "marchello.jpg",
+    title: "Your Ultimate Car Buying Companion",
+    des: "Enjoy a seamless, pleasant, and efficient car buying process with our top-notch service and innovative solutions.",
+    img: "/shopCar.jpeg",
     iconLists: [
       "/ts.svg",
       "/c.svg",
@@ -126,7 +127,7 @@ export const projects = [
       "/wordpress.png",
       "/sales.jpg",
     ],
-    link: "https://textilambiente.ch/?fbclid=IwY2xjawJQ4ClleHRuA2FlbQIxMAABHU_kf29kCFCnJh18Ez3G2f08gktxIgtv5aR1sud2967LbcXNIo-3sm6dXw_aem_nGYkLh9Zb--TirXjj4fLXQ",
+    link: "https://steinegger-automobile.ch/?fbclid=IwY2xjawJP2GxleHRuA2FlbQIxMAABHTNUV3lMcYK-qlNIN0ic2GuCWxE3WiszzsKqeXr8k8r7IS16amBAeDSAsQ_aem_NaxDKCB0-jO-f01oVUydeQ",
   },
   {
     id: 6,
@@ -143,7 +144,7 @@ export const projects = [
     link: "https://carrentalskopje.com/?fbclid=IwY2xjawJP1wdleHRuA2FlbQIxMAABHWfHn_QH3STp1sPXzmnqww-OwaDs6-ujEp3SnGJ7B9dDL1Eb5Yg5d7oGyA_aem_WCvWQ64HUeVoi5v1DduV1g",
   },
   {
-    id: 6,
+    id: 7,
     title: "Online Call - Dialer",
     des: "It automates dialing, tracks call outcomes, and boosts productivity with real-time analytics. Designed for sales teams, it includes features like contact management, call scripting, and seamless CRM integration to streamline cold calling and improve customer engagement.",
     img: "/stillworking.png",

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   motion,
   AnimatePresence,
@@ -46,6 +46,7 @@ export const FloatingNav = ({
   return (
     <AnimatePresence mode="wait">
       <motion.div
+        id="floating-navbar"
         initial={{
           opacity: 1,
           y: -100,
