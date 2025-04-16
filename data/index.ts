@@ -76,7 +76,7 @@ export const projects = [
     des: "'Still Working' Patients can effortlessly choose their preferred doctor, select an available time slot, and provide necessary details—all through a simple, intuitive interface",
     img: "/p2replaced.svg.avif",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://doctor-booking-appointment-ed9xhglkx-filip1010s-projects.vercel.app/",
+    link: "https://doctor-booking-appointment-orcin.vercel.app/",
   },
   {
     id: 8,
