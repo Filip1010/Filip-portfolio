@@ -79,6 +79,14 @@ export const projects = [
     link: "https://doctor-booking-appointment-ed9xhglkx-filip1010s-projects.vercel.app/",
   },
   {
+    id: 8,
+    title: "Ecommerce App",
+    des: "Fully responsive e-commerce app with product listings, shopping cart, and checkout, built using modern web technologies.",
+    img: "/ecommerce.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://ecommerce-app-rho-fawn.vercel.app/",
+  },
+  {
     id: 2,
     title: "Marcello Auto",
     des: "Marcello Auto, located in Seewen, Switzerland, specializes in the purchase and sale of vehicles across all brands, including luxury cars, family vehicles, and sports cars. They offer services such as trade-ins, cash purchases, and exports, ensuring customer satisfaction through professional service and partnerships with leading Swiss providers for credit, leasing, and vehicle warranties.",
@@ -132,7 +140,7 @@ export const projects = [
   {
     id: 6,
     title: "Rent a Car Website",
-    des: "'Still Working' A user-friendly car rental website that allows customers to easily browse available vehicles, select their preferred model, and book a rental with just a few clicks.",
+    des: "A user-friendly car rental website that allows customers to easily browse available vehicles, select their preferred model, and book a rental with just a few clicks.",
     img: "/car.avif",
     iconLists: [
       "/ts.svg",
@@ -149,7 +157,7 @@ export const projects = [
     des: "It automates dialing, tracks call outcomes, and boosts productivity with real-time analytics. Designed for sales teams, it includes features like contact management, call scripting, and seamless CRM integration to streamline cold calling and improve customer engagement.",
     img: "/stillworking.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "www.example.com",
+    link: "",
   },
 ];
 
