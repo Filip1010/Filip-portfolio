@@ -62,13 +62,6 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="/MyCV.png" target="_blank" rel="noopener noreferrer">
-              <MagicButton
-                title="CV"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
-            </a>
           </div>
         </div>
       </div>
