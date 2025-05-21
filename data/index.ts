@@ -87,6 +87,14 @@ export const projects = [
     link: "https://ecommerce-app-rho-fawn.vercel.app/",
   },
   {
+    id: 7,
+    title: "Online Call - Dialer",
+    des: "It automates dialing, tracks call outcomes, and boosts productivity with real-time analytics. Designed for sales teams, it includes features like contact management, call scripting, and seamless CRM integration to streamline cold calling and improve customer engagement.",
+    img: "/stillworking.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://www.echo-o.com",
+  },
+  {
     id: 2,
     title: "Marcello Auto",
     des: "Marcello Auto, located in Seewen, Switzerland, specializes in the purchase and sale of vehicles across all brands, including luxury cars, family vehicles, and sports cars. They offer services such as trade-ins, cash purchases, and exports, ensuring customer satisfaction through professional service and partnerships with leading Swiss providers for credit, leasing, and vehicle warranties.",
@@ -150,14 +158,6 @@ export const projects = [
       "/sales.jpg",
     ],
     link: "https://carrentalskopje.com/?fbclid=IwY2xjawJP1wdleHRuA2FlbQIxMAABHWfHn_QH3STp1sPXzmnqww-OwaDs6-ujEp3SnGJ7B9dDL1Eb5Yg5d7oGyA_aem_WCvWQ64HUeVoi5v1DduV1g",
-  },
-  {
-    id: 7,
-    title: "Online Call - Dialer",
-    des: "It automates dialing, tracks call outcomes, and boosts productivity with real-time analytics. Designed for sales teams, it includes features like contact management, call scripting, and seamless CRM integration to streamline cold calling and improve customer engagement.",
-    img: "/stillworking.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "",
   },
 ];
 
