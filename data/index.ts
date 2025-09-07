@@ -71,6 +71,42 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 9,
+    title: "Loop – Social Platform with Podcast Features",
+    des: "Loop lets users connect with friends, chat in real time, and share or listen to podcasts, all in one user-friendly platform.",
+    img: "loop.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://www.loop.it.com",
+  },
+  {
+    id: 2,
+    title: "Marcello Auto",
+    des: "Marcello Auto, located in Seewen, Switzerland, specializes in the purchase and sale of vehicles across all brands, including luxury cars, family vehicles, and sports cars. They offer services such as trade-ins, cash purchases, and exports, ensuring customer satisfaction through professional service and partnerships with leading Swiss providers for credit, leasing, and vehicle warranties.",
+    img: "marchello.jpg",
+    iconLists: [
+      "/ts.svg",
+      "/c.svg",
+      "/deploy.png",
+      "/wordpress.png",
+      "/sales.jpg",
+    ],
+    link: "https://marcello-auto.ch/?fbclid=IwY2xjawJQ4hJleHRuA2FlbQIxMAABHaYant9Yhjkovr7F0LIZy2YpLho0IfeN2UfpYoxTA_TsxNnQLALqnhDpuQ_aem_GDEjk8NuO-hDxhVR4ufWiw",
+  },
+  {
+    id: 4,
+    title: "Textil Ambiente ",
+    des: "Textil Ambiente , located in Brunnen, Switzerland, specializes in custom-made curtains and various sewing services. They offer a wide selection of high-quality fabrics, colors, and designs, providing personalized solutions for both residential and commercial spaces.",
+    img: "textilpht.png",
+    iconLists: [
+      "/ts.svg",
+      "/c.svg",
+      "/deploy.png",
+      "/wordpress.png",
+      "/sales.jpg",
+    ],
+    link: "https://textilambiente.ch/?fbclid=IwY2xjawJQ4ClleHRuA2FlbQIxMAABHU_kf29kCFCnJh18Ez3G2f08gktxIgtv5aR1sud2967LbcXNIo-3sm6dXw_aem_nGYkLh9Zb--TirXjj4fLXQ",
+  },
+  {
     id: 1,
     title: "Doctor Booking Appointment",
     des: "'Still Working' Patients can effortlessly choose their preferred doctor, select an available time slot, and provide necessary details—all through a simple, intuitive interface",
@@ -94,43 +130,15 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.echo-o.com",
   },
-  {
-    id: 2,
-    title: "Marcello Auto",
-    des: "Marcello Auto, located in Seewen, Switzerland, specializes in the purchase and sale of vehicles across all brands, including luxury cars, family vehicles, and sports cars. They offer services such as trade-ins, cash purchases, and exports, ensuring customer satisfaction through professional service and partnerships with leading Swiss providers for credit, leasing, and vehicle warranties.",
-    img: "marchello.jpg",
-    iconLists: [
-      "/ts.svg",
-      "/c.svg",
-      "/deploy.png",
-      "/wordpress.png",
-      "/sales.jpg",
-    ],
-    link: "https://marcello-auto.ch/?fbclid=IwY2xjawJQ4hJleHRuA2FlbQIxMAABHaYant9Yhjkovr7F0LIZy2YpLho0IfeN2UfpYoxTA_TsxNnQLALqnhDpuQ_aem_GDEjk8NuO-hDxhVR4ufWiw",
-  },
+
   {
     id: 3,
-    title: "Macedonian Stock Exchange Data Scraper",
+    title: "Macedonian Stock Exchange Data Scraper - Github",
     des: "A powerful web scraper that collects and analyzes historical data from the Macedonian Stock Exchange, enabling real-time insights and comprehensive financial analysis.",
     img: "stock-exchange.jpg",
     iconLists: ["/python.png", "/selenium.png", "/pandas.png", "/docker.png"],
     link: "https://github.com/Filip1010/Macedonian-Stock-Exchange/tree/master",
   },
-  {
-    id: 4,
-    title: "Textil Ambiente ",
-    des: "Textil Ambiente , located in Brunnen, Switzerland, specializes in custom-made curtains and various sewing services. They offer a wide selection of high-quality fabrics, colors, and designs, providing personalized solutions for both residential and commercial spaces.",
-    img: "textilpht.png",
-    iconLists: [
-      "/ts.svg",
-      "/c.svg",
-      "/deploy.png",
-      "/wordpress.png",
-      "/sales.jpg",
-    ],
-    link: "https://textilambiente.ch/?fbclid=IwY2xjawJQ4ClleHRuA2FlbQIxMAABHU_kf29kCFCnJh18Ez3G2f08gktxIgtv5aR1sud2967LbcXNIo-3sm6dXw_aem_nGYkLh9Zb--TirXjj4fLXQ",
-  },
-
   {
     id: 5,
     title: "Your Ultimate Car Buying Companion",
@@ -145,20 +153,20 @@ export const projects = [
     ],
     link: "https://steinegger-automobile.ch/?fbclid=IwY2xjawJP2GxleHRuA2FlbQIxMAABHTNUV3lMcYK-qlNIN0ic2GuCWxE3WiszzsKqeXr8k8r7IS16amBAeDSAsQ_aem_NaxDKCB0-jO-f01oVUydeQ",
   },
-  {
-    id: 6,
-    title: "Rent a Car Website",
-    des: "A user-friendly car rental website that allows customers to easily browse available vehicles, select their preferred model, and book a rental with just a few clicks.",
-    img: "/car.avif",
-    iconLists: [
-      "/ts.svg",
-      "/c.svg",
-      "/deploy.png",
-      "/wordpress.png",
-      "/sales.jpg",
-    ],
-    link: "https://carrentalskopje.com/?fbclid=IwY2xjawJP1wdleHRuA2FlbQIxMAABHWfHn_QH3STp1sPXzmnqww-OwaDs6-ujEp3SnGJ7B9dDL1Eb5Yg5d7oGyA_aem_WCvWQ64HUeVoi5v1DduV1g",
-  },
+  // {
+  //   id: 6,
+  //   title: "Rent a Car Website",
+  //   des: "A user-friendly car rental website that allows customers to easily browse available vehicles, select their preferred model, and book a rental with just a few clicks.",
+  //   img: "/car.avif",
+  //   iconLists: [
+  //     "/ts.svg",
+  //     "/c.svg",
+  //     "/deploy.png",
+  //     "/wordpress.png",
+  //     "/sales.jpg",
+  //   ],
+  //   link: "https://carrentalskopje.com/?fbclid=IwY2xjawJP1wdleHRuA2FlbQIxMAABHWfHn_QH3STp1sPXzmnqww-OwaDs6-ujEp3SnGJ7B9dDL1Eb5Yg5d7oGyA_aem_WCvWQ64HUeVoi5v1DduV1g",
+  // },
 ];
 
 export const testimonials = [
