@@ -126,7 +126,7 @@ export const projects = [
     id: 7,
     title: "Online Call - Dialer",
     des: "It automates dialing, tracks call outcomes, and boosts productivity with real-time analytics. Designed for sales teams, it includes features like contact management, call scripting, and seamless CRM integration to streamline cold calling and improve customer engagement.",
-    img: "/stillworking.png",
+    img: "/echo.avif",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.echo-o.com",
   },
