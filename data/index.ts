@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 9,
     title: "Loop – Social Platform with Podcast Features",
-    des: "Loop lets users connect with friends, chat in real time, and share or listen to podcasts, all in one user-friendly platform.",
+    des: "Loop lets users connect with friends, chat in real time, record podcasts, all in one user-friendly platform.",
     img: "loop.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.loop.it.com",
@@ -96,7 +96,7 @@ export const projects = [
     id: 4,
     title: "Textil Ambiente ",
     des: "Textil Ambiente , located in Brunnen, Switzerland, specializes in custom-made curtains and various sewing services. They offer a wide selection of high-quality fabrics, colors, and designs, providing personalized solutions for both residential and commercial spaces.",
-    img: "textilpht.png",
+    img: "textill.webp",
     iconLists: [
       "/ts.svg",
       "/c.svg",
@@ -126,7 +126,7 @@ export const projects = [
     id: 7,
     title: "Online Call - Dialer",
     des: "It automates dialing, tracks call outcomes, and boosts productivity with real-time analytics. Designed for sales teams, it includes features like contact management, call scripting, and seamless CRM integration to streamline cold calling and improve customer engagement.",
-    img: "/echo.avif",
+    img: "/callD.avif",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://www.echo-o.com",
   },
@@ -143,7 +143,7 @@ export const projects = [
     id: 5,
     title: "Your Ultimate Car Buying Companion",
     des: "Enjoy a seamless, pleasant, and efficient car buying process with our top-notch service and innovative solutions.",
-    img: "/shopCar.jpeg",
+    img: "/carbuy.webp",
     iconLists: [
       "/ts.svg",
       "/c.svg",
