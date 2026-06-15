@@ -8,8 +8,9 @@ const BentoGrid = dynamic(
     ssr: false,
   }
 );
-const BentoGridItem = dynamic(() =>
-  import("./ui/BentoGrid").then((mod) => mod.BentoGridItem)
+const BentoGridItem = dynamic(
+  () => import("./ui/BentoGrid").then((mod) => mod.BentoGridItem),
+  { ssr: false }
 );
 
 const Grid = () => {
