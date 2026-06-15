@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
@@ -33,7 +34,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 Filip Kuzmanoski
+          Copyright © {new Date().getFullYear()} Filip Kuzmanoski
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

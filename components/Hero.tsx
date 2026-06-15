@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
@@ -35,9 +36,12 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           {/* Profile image */}
-          <img
+          <Image
             src="/myprofile.jpeg"
             alt="Filip Kuzmanoski"
+            width={160}
+            height={160}
+            priority
             className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover object-[center_20%] border-4 border-white shadow-lg mb-6 transform scale-[0.93]"
           />
 
