@@ -4,13 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx prisma generate && cross-env NODE_OPTIONS='--inspect' next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "vercel --prod",
-    "postinstall": "npm run prisma:generate",
-    "prisma:generate": "prisma generate",
-    "postbuild": "prisma generate"
+    "deploy": "vercel --prod"
   },
   "type": "module",
   "dependencies": {
