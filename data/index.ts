@@ -181,7 +181,7 @@ export const projects = [
     id: 13,
     title: "Echo – Music Streaming App",
     des: "A Spotify-inspired music streaming platform with playlist creation, artist discovery pages, a real-time audio visualizer, and collaborative listening rooms. Supports adaptive bitrate streaming, offline downloads, and personalized recommendation engine powered by listening history.",
-    img: "/echo.avif",
+    img: "/musicstr.jpg",
     iconLists: ["/next.svg", "/stream.svg", "/ts.svg", "/re.svg", "/c.svg"],
     link: "",
   },
@@ -201,20 +201,20 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/python.png", "/c.svg"],
     link: "",
   },
-  // {
-  //   id: 6,
-  //   title: "Rent a Car Website",
-  //   des: "A user-friendly car rental website that allows customers to easily browse available vehicles, select their preferred model, and book a rental with just a few clicks.",
-  //   img: "/car.avif",
-  //   iconLists: [
-  //     "/ts.svg",
-  //     "/c.svg",
-  //     "/deploy.png",
-  //     "/wordpress.png",
-  //     "/sales.jpg",
-  //   ],
-  //   link: "https://carrentalskopje.com/?fbclid=IwY2xjawJP1wdleHRuA2FlbQIxMAABHWfHn_QH3STp1sPXzmnqww-OwaDs6-ujEp3SnGJ7B9dDL1Eb5Yg5d7oGyA_aem_WCvWQ64HUeVoi5v1DduV1g",
-  // },
+  {
+    id: 16,
+    title: "Rent a Car Website",
+    des: "A user-friendly car rental website that allows customers to easily browse available vehicles, select their preferred model, and book a rental with just a few clicks.",
+    img: "/car.avif",
+    iconLists: [
+      "/ts.svg",
+      "/c.svg",
+      "/deploy.png",
+      "/wordpress.png",
+      "/sales.jpg",
+    ],
+    link: "https://carrentalskopje.com/?fbclid=IwY2xjawJP1wdleHRuA2FlbQIxMAABHWfHn_QH3STp1sPXzmnqww-OwaDs6-ujEp3SnGJ7B9dDL1Eb5Yg5d7oGyA_aem_WCvWQ64HUeVoi5v1DduV1g",
+  },
 ];
 
 export const testimonials = [
