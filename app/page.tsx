@@ -1,10 +1,13 @@
 import { navItems } from "@/data";
-import { Analytics } from "@vercel/analytics/react";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import dynamic from "next/dynamic";
 
+const Analytics = dynamic(
+  () => import("@vercel/analytics/react").then((m) => ({ default: m.Analytics })),
+  { ssr: false }
+);
 const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 const Stats = dynamic(() => import("@/components/Stats"), { ssr: false });
 const RecentProjects = dynamic(() => import("@/components/RecentProjects"), { ssr: false });
