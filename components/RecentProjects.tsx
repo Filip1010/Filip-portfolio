@@ -44,7 +44,7 @@ const RecentProjects = () => {
 
   const isConcept = selected ? CONCEPT_IDS.has(selected.id) : false;
   const isTesting = selected ? TESTING_IDS.has(selected.id) : false;
-  const hasLink = selected?.link && !isConcept && !isTesting;
+  const hasLink = !!(selected?.link) && !isConcept;
 
   return (
     <div id="projects" className="py-20">
@@ -226,12 +226,6 @@ const RecentProjects = () => {
                     Check Live Site
                     <FaLocationArrow size={13} />
                   </motion.button>
-                ) : isTesting ? (
-                  <div className="flex items-center gap-2.5 rounded-full px-5 py-3 text-sm font-medium w-fit"
-                    style={{ background: "rgba(239,68,68,0.1)", border: "1px solid rgba(239,68,68,0.3)", color: "#fca5a5" }}>
-                    <FaFlask size={13} />
-                    Private — Personal Testing Only
-                  </div>
                 ) : (
                   <div className="flex items-center gap-2.5 rounded-full px-5 py-3 text-sm font-medium w-fit"
                     style={{ background: "rgba(203,172,249,0.08)", border: "1px solid rgba(203,172,249,0.2)", color: "#CBACF9" }}>
